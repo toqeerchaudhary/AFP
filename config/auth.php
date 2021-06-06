@@ -1,0 +1,208 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Authentication Defaults
+    |--------------------------------------------------------------------------
+    |
+    | This option controls the default authentication "guard" and password
+    | reset options for your application. You may change these defaults
+    | as required, but they're a perfect start for most applications.
+    |
+    */
+
+    'defaults' => [
+        'guard' => 'web',
+        'passwords' => 'users',
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Authentication Guards
+    |--------------------------------------------------------------------------
+    |
+    | Next, you may define every authentication guard for your application.
+    | Of course, a great default configuration has been defined for you
+    | here which uses session storage and the Eloquent user provider.
+    |
+    | All authentication drivers have a user provider. This defines how the
+    | users are actually retrieved out of your database or other storage
+    | mechanisms used by this application to persist your user's data.
+    |
+    | Supported: "session", "token"
+    |
+    */
+
+    'guards' => [
+        'web' => [
+            'driver' => 'session',
+            'provider' => 'users',
+        ],
+
+        'api' => [
+            'driver' => 'token',
+            'provider' => 'users',
+            'hash' => false,
+        ],
+
+        'admin' => [
+            'driver' => 'session',
+            'provider' => 'admins',
+        ],
+
+        'seller' => [
+            'driver' => 'session',
+            'provider' => 'sellers',
+        ],
+
+        'purchaser' => [
+            'driver' => 'session',
+            'provider' => 'purchasers',
+        ],
+        'accountant' => [
+            'driver' => 'session',
+            'provider' => 'accountants',
+        ],
+
+        'hr' => [
+            'driver' => 'session',
+            'provider' => 'hrs',
+        ],
+
+        'coordinator' => [
+            'driver' => 'session',
+            'provider' => 'coordinators',
+        ],
+
+        'maintainer' => [
+            'driver' => 'session',
+            'provider' => 'maintainers',
+        ],
+        'store_keeper' => [
+            'driver' => 'session',
+            'provider' => 'store_keepers',
+        ],
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | User Providers
+    |--------------------------------------------------------------------------
+    |
+    | All authentication drivers have a user provider. This defines how the
+    | users are actually retrieved out of your database or other storage
+    | mechanisms used by this application to persist your user's data.
+    |
+    | If you have multiple user tables or models you may configure multiple
+    | sources which represent each model / table. These sources may then
+    | be assigned to any extra authentication guards you have defined.
+    |
+    | Supported: "database", "eloquent"
+    |
+    */
+
+    'providers' => [
+        'users' => [
+            'driver' => 'eloquent',
+            'model' => App\User::class,
+        ],
+        'admins' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Admin::class,
+        ],
+        'sellers' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Seller::class,
+        ],
+        'purchasers' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Purchaser::class,
+        ],
+        'accountants' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Accountant::class,
+        ],
+        'hrs' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Hr::class,
+        ],
+        'coordinators' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Coordinator::class,
+        ],
+        'maintainers' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Maintainer::class,
+        ],
+        'store_keepers' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\StoreKeeper::class,
+        ],
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Resetting Passwords
+    |--------------------------------------------------------------------------
+    |
+    | You may specify multiple password reset configurations if you have more
+    | than one user table or model in the application and you want to have
+    | separate password reset settings based on the specific user types.
+    |
+    | The expire time is the number of minutes that the reset token should be
+    | considered valid. This security feature keeps tokens short-lived so
+    | they have less time to be guessed. You may change this as needed.
+    |
+    */
+
+    'passwords' => [
+        'users' => [
+            'provider' => 'users',
+            'table' => 'password_resets',
+            'expire' => 60,
+        ],
+        'admins' => [
+            'provider' => 'admins',
+            'table' => 'password_resets',
+            'expire' => 60,
+        ],
+        'sellers' => [
+            'provider' => 'sellers',
+            'table' => 'password_resets',
+            'expire' => 60,
+        ],
+        'purchasers' => [
+            'provider' => 'purchasers',
+            'table' => 'password_resets',
+            'expire' => 60,
+        ],
+        'accountants' => [
+            'provider' => 'accountants',
+            'table' => 'password_resets',
+            'expire' => 60,
+        ],
+        'hrs' => [
+            'provider' => 'hrs',
+            'table' => 'password_resets',
+            'expire' => 60,
+        ],
+        'coordinators' => [
+            'provider' => 'coordinators',
+            'table' => 'password_resets',
+            'expire' => 60,
+        ],
+        'maintainers' => [
+            'provider' => 'maintainers',
+            'table' => 'password_resets',
+            'expire' => 60,
+        ],
+        'store_keepers' => [
+            'provider' => 'store_keepers',
+            'table' => 'password_resets',
+            'expire' => 60,
+        ],
+    ],
+
+];

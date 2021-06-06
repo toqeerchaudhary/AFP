@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0bac626c-e5b3-420f-953c-67887d8a8d59" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>wa</find>
+      <find>selection__choice__remove</find>
+      <find>setting</find>
+      <find>settings</find>
+      <find>files</find>
+      <find>warranty</find>
+      <find>brand</find>
+      <find>select2</find>
+      <find>danger</find>
+      <find>bg-da</find>
+      <find>name=&quot;</find>
+      <find>disabled</find>
+      <find>valid</find>
+      <find>-&gt;name</find>
+      <find>&lt;&gt;</find>
+      <find>quotation</find>
+      <find>isPdf</find>
+      <find>Produ</find>
+      <find>general</find>
+      <find>$quotation</find>
+      <find>Quotation</find>
+      <find>#sale_price_</find>
+      <find>email</find>
+      <find>validi</find>
+      <find>date</find>
+      <find>Contact</find>
+      <find>isPd</find>
+      <find>URL::to</find>
+      <find>php</find>
+      <find>Total Amount</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>/backend/</replace>
+      <replace>{{ URL::to(&quot;/backend/</replace>
+      <replace>Product</replace>
+      <replace>product</replace>
+      <replace>admin.product</replace>
+      <replace>Sale</replace>
+      <replace>sale</replace>
+      <replace>seller</replace>
+      <replace>Seller</replace>
+      <replace>Purchaser</replace>
+      <replace>purchaser</replace>
+      <replace>Accountant</replace>
+      <replace>accountant</replace>
+      <replace>hr</replace>
+      <replace>Hr</replace>
+      <replace>coordinator</replace>
+      <replace>Coordinator</replace>
+      <replace>Maintainer</replace>
+      <replace>maintainer</replace>
+      <replace>store</replace>
+      <replace>Store_keeper</replace>
+      <replace>store_keepers</replace>
+      <replace>store_keeper</replace>
+      <replace>StoreKeeper</replace>
+      <replace>Uom</replace>
+      <replace>uom</replace>
+      <replace>disabled name=&quot;</replace>
+      <replace>quotation</replace>
+      <replace>$inquiry</replace>
+      <replace>Inquiry</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\SEO Manager\Desktop\AFP\routes</dir>
+      <dir>C:\Users\SEO Manager\Desktop\AFP\resources</dir>
+      <dir>C:\Users\SEO Manager\Desktop\AFP\database</dir>
+      <dir>C:\Users\SEO Manager\Desktop\AFP\app</dir>
+      <dir>C:\Users\SEO Manager\Desktop\AFP\resources\views\seller\auth</dir>
+      <dir>C:\Users\SEO Manager\Desktop\AFP\resources\views\accountant</dir>
+      <dir>C:\Users\SEO Manager\Desktop\AFP\resources\views\maintainer</dir>
+      <dir>C:\Users\SEO Manager\Desktop\AFP</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/database/migrations/2021_04_30_064622_create_products_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/AjaxController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/product/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/product/edit.blade.php" />
+        <option value="$PROJECT_DIR$/public/test.html" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/public/backend/dist/css/style.min.css" />
+        <option value="$PROJECT_DIR$/app/Models/Coordinator.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_05_21_094328_create_settings_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/seller/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/SettingsController.php" />
+        <option value="$PROJECT_DIR$/app/Models/Setting.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/setting/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_05_21_094411_product_quotations_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/emails/quotation.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/seller/quotation/create.blade.php" />
+        <option value="$PROJECT_DIR$/app/Models/Customer.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/CustomerController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/customer/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/customer/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/customer/revision.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/quotation/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/QuotationController.php" />
+        <option value="$PROJECT_DIR$/resources/views/seller/quotation/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Models/Seller.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_05_27_034250_create_inquiries_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/seller/inquiry/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Models/Inquiry.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_05_27_034437_inquiry_product_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Seller/InquiryController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_05_22_033241_create_customers_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/seller/inquiry/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/seller/inquiry/show.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_05_21_094337_create_quotations_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_05_21_094411_product_quotation_table.php" />
+        <option value="$PROJECT_DIR$/app/Models/Quotation.php" />
+        <option value="$PROJECT_DIR$/app/Models/Product.php" />
+        <option value="$PROJECT_DIR$/resources/views/seller/quotation/inquiry.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/seller/quotation/revision.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/config/dompdf.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TestController.php" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/seller/quotation/show.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Seller/QuotationController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/seller.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/quotation/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/backend.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/pdf/quotation.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/php-parallel-lint/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/php-parallel-lint/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-dompdf" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="952" />
+    <option name="width" value="976" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="SearchEverywhereHistoryKey" value="quota&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/pdf/quotation.blade.php&#10;back&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/backend.blade.php&#10;show&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/admin/quotation/show.blade.php&#10;backen&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/backend.blade.php&#10;SELL&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/seller.blade.php&#10;Test&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/TestController.php&#10;Quota&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/Seller/QuotationController.php&#10;web&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/welcome.blade.php&#10;we&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/routes/web.php&#10;seller&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/seller.blade.php&#10;composer.js&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/composer.json&#10;quotation&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/pdf/quotation.blade.php&#10;TEST&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/TestController.php&#10;inqui&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/seller/quotation/inquiry.blade.php&#10;revi&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/seller/quotation/revision.blade.php&#10;Produ&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Models/Product.php&#10;Inqui&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Models/Inquiry.php&#10;Quotat&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Models/Quotation.php&#10;product&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_21_094411_product_quotation_table.php&#10;quotat&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_21_094337_create_quotations_table.php&#10;create&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/seller/inquiry/create.blade.php&#10;Custom&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_22_033241_create_customers_table.php&#10;inqu&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/seller/quotation/inquiry.blade.php&#10;inquiry&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_27_034437_inquiry_product_table.php&#10;pro&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_21_094411_product_quotation_table.php&#10;pdf&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/pdf&#10;welcom&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/welcome.blade.php&#10;Quo&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/Seller/QuotationController.php&#10;Product&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Models/Product.php&#10;Inquiry&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Models/Inquiry.php&#10;inquir&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_27_034437_inquiry_product_table.php&#10;Inquir&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/Seller/InquiryController.php&#10;sel&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/seller.blade.php&#10;customers&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_22_033241_create_customers_table.php&#10;Inq&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_27_034250_create_inquiries_table.php&#10;Seller&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Models/Seller.php&#10;Quotation&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/Seller/QuotationController.php&#10;backe&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/backend.blade.php&#10;quotation_&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_21_094411_product_quotation_table.php&#10;index&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/seller/quotation/index.blade.php&#10;rev&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/seller/quotation/revision.blade.php&#10;Prod&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/ProductController.php&#10;bac&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/backend.blade.php&#10;customer&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_22_033241_create_customers_table.php&#10;Admin&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_04_30_064634_create_admins_table.php&#10;sell&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/seller.blade.php&#10;test&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/public/test.php&#10;wel&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/welcome.blade.php&#10;select2.min&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/public/backend/assets/libs/select2/dist/css/select2.min.css&#10;Categ&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/Admin/CategoryController.php" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SEO Manager\Desktop\AFP\resources\views\seller\quotation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SEO Manager\Desktop\AFP\resources\views\seller" />
+      <recent name="C:\Users\SEO Manager\Desktop\AFP\public\js" />
+      <recent name="C:\Users\SEO Manager\Desktop\AFP\resources\views\admin\quotation" />
+      <recent name="C:\Users\SEO Manager\Desktop\AFP\public" />
+      <recent name="C:\Users\SEO Manager\Desktop\AFP\resources\views\admin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0bac626c-e5b3-420f-953c-67887d8a8d59" name="Default" comment="" />
+      <created>1619763121672</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619763121672</updated>
+      <workItem from="1619763123081" duration="19936000" />
+      <workItem from="1620288177545" duration="25413000" />
+      <workItem from="1620639054647" duration="51000" />
+      <workItem from="1621252411901" duration="1272000" />
+      <workItem from="1621491038847" duration="48854000" />
+      <workItem from="1621934290606" duration="5040000" />
+      <workItem from="1622086894261" duration="12520000" />
+      <workItem from="1622243597431" duration="13114000" />
+      <workItem from="1622291816662" duration="197000" />
+      <workItem from="1622638030997" duration="1082000" />
+      <workItem from="1623023588694" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="127505000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16756175" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5021482" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33408833" sideWeight="0.49785176" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/brand/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/product/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4089">
+          <caret line="87" column="45" lean-forward="false" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Setting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/SettingsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/setting/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="26" column="118" lean-forward="false" selection-start-line="26" selection-start-column="118" selection-end-line="26" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_05_21_094328_create_settings_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/SupplierController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="143" column="47" lean-forward="true" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1010">
+          <caret line="44" column="26" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="44" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4113">
+          <caret line="77" column="9" lean-forward="true" selection-start-line="69" selection-start-column="8" selection-end-line="77" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/backend/assets/libs/select2/dist/css/select2.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/emails/registration/seller.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="120" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/emails/quotation.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="82" column="382" lean-forward="false" selection-start-line="82" selection-start-column="382" selection-end-line="82" selection-end-column="382" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_04_30_064634_create_admins_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/brand/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CustomerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="77" column="71" lean-forward="false" selection-start-line="77" selection-start-column="71" selection-end-line="77" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/brand/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/customer/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="38" column="71" lean-forward="false" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/customer/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/quotation/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="36" column="55" lean-forward="false" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1872">
+          <caret line="82" column="23" lean-forward="true" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/QuotationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/seller/quotation/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_05_27_034250_create_inquiries_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/seller/inquiry/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-517">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/seller/quotation/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="170" column="18" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="234" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_05_27_034437_inquiry_product_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="23" column="41" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="23" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_05_22_033241_create_customers_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/seller/inquiry/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4700">
+          <caret line="100" column="27" lean-forward="false" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Seller/InquiryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3567">
+          <caret line="55" column="35" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="55" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/seller/inquiry/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="81" column="24" lean-forward="true" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_05_21_094411_product_quotation_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_05_21_094337_create_quotations_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="34" column="39" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Inquiry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="27" column="92" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Quotation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="27" column="105" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="36" column="105" lean-forward="false" selection-start-line="36" selection-start-column="105" selection-end-line="36" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/seller/quotation/revision.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="182" column="52" lean-forward="false" selection-start-line="182" selection-start-column="41" selection-end-line="182" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/seller/quotation/inquiry.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10645">
+          <caret line="354" column="13" lean-forward="true" selection-start-line="249" selection-start-column="2" selection-end-line="354" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Seller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4724">
+          <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/dompdf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9400">
+          <caret line="200" column="28" lean-forward="false" selection-start-line="200" selection-start-column="28" selection-end-line="200" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="18" column="65" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Seller/QuotationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2256">
+          <caret line="150" column="26" lean-forward="true" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="18" column="75" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/seller.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/quotation/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="189" column="10" lean-forward="false" selection-start-line="189" selection-start-column="10" selection-end-line="189" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/seller/quotation/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="191" column="22" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="191" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/backend.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="280" column="96" lean-forward="false" selection-start-line="280" selection-start-column="96" selection-end-line="280" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pdf/quotation.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="184" column="0" lean-forward="true" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding>
+            <marker date="1622638524792" expanded="true" signature="9:89" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="372:472" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="1210:1281" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="1470:1496" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="1546:1567" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="1669:1694" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="1748:1773" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="2174:2195" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="2311:2366" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="2435:2456" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="2567:2620" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="2690:2712" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="2828:2851" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="2920:2941" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="3058:3088" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="3155:3174" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="3381:3406" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="3630:3655" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="4068:4100" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="4167:4185" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="4218:4234" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="4285:4321" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="4354:4381" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="4414:4465" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="4502:4546" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="4579:4606" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="4661:4873" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="4930:4953" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="5021:5044" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="5247:5275" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="5545:5582" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="5639:5665" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="5924:5964" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="6202:6230" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="6404:6449" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="6473:6538" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="6585:6650" ph="..." />
+            <marker date="1622638524792" expanded="true" signature="6847:6917" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
