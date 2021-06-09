@@ -19,11 +19,11 @@
                     <thead>
                     <tr>
                         <td>Sr #</td>
-                        <td>Code</td>
                         <td>Reference #</td>
+                        <td>Company Name</td>
+                        <td>Person Name</td>
+                        <td>Validity</td>
                         <td>Contact</td>
-                        <td>Project</td>
-                        <td>Products</td>
                         <td>Actions</td>
                     </tr>
                     </thead>
@@ -31,11 +31,11 @@
                     @foreach($quotations as $quotation)
                         <tr>
                             <td>{{$loop->iteration}}</td>
-                            <td>{{$quotation->code}}</td>
                             <td>{{$quotation->reference}}</td>
+                            <td>{{$quotation->company_name}}</td>
+                            <td>{{$quotation->person_name}}</td>
+                            <td>{{ date("d M Y", strtotime($quotation->validity)) }}</td>
                             <td>{{$quotation->contact}}</td>
-                            <td>{{$quotation->project}}</td>
-                            <td>{{$quotation->Products->count()}}</td>
                             <td>
                                 <a href="{{route('seller.quotation.show',['id' => $quotation->id])}}" class="btn btn-info btn-sm"><i class="fas fa-eye"></i></a>
 

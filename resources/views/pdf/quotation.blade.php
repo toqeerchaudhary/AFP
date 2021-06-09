@@ -118,18 +118,17 @@
            <tbody>
            <tr class="bg-grey">
                <th></th>
-               <td colspan="7" class="text-center">
+               <td colspan="6" class="text-center">
                    <strong>{{ $quotation->row_heading }}</strong>
                </td>
            </tr>
            <tr class="bg-grey table-sm  text-center">
-               <th>S.No.</th>
+               <th>Sr#</th>
                <th>Code</th>
                <th>DESCRIPTION & SPECIFICATION</th>
                <th>QTY</th>
                <th>UOM</th>
                <th>Unit Price</th>
-               <th>Discount</th>
                <th>Total Price</th>
            </tr>
 
@@ -141,7 +140,7 @@
                    <td>{{ $product->pivot->quantity }}</td>
                    <td>{{ ucfirst($product->Uom ? $product->Uom->name : "") }}</td>
                    <td>PKR {{ number_format($product->pivot->sale_price) }}</td>
-                   <td>{{ $product->pivot->discount }}</td>
+                   {{--<td>{{ $product->pivot->discount }}</td>--}}
                    @php
                        $price = $product->pivot->discount ? ($product->pivot->total_price - ($product->pivot->discount * $product->pivot->total_price / 100)) : $product->pivot->total_price ;
                        $totalPrice += $price
@@ -153,12 +152,12 @@
            @if($quotation->include_gst)
                <tr class="font-weight-bold">
                    <td></td>
-                   <td colspan="6" align="right">Grand Total Without GST</td>
+                   <td colspan="5" align="right">Grand Total Without GST</td>
                    <td class="text-center">PKR {{ number_format($totalPrice) }}</td>
                </tr>
                <tr class="font-weight-bold">
                    <td></td>
-                   <td colspan="6" align="right"> GST @ 17%</td>
+                   <td colspan="5" align="right"> GST @ 17%</td>
                    <td class="text-center">PKR
                        @php
                            $totalGst = ($totalPrice * 17) / 100;
@@ -168,13 +167,13 @@
                </tr>
                <tr class="font-weight-bold">
                    <td></td>
-                   <td colspan="6"  align="right"> Total Amount Inclusive of GST</td>
+                   <td colspan="5"  align="right"> Total Amount Inclusive of GST</td>
                    <td  class="text-center">PKR {{ number_format($totalGst + $totalPrice) }}</td>
                </tr>
            @else
                <tr class="font-weight-bold">
                    <td></td>
-                   <td colspan="6"  align="right"> Total Amount</td>
+                   <td colspan="5"  align="right"> Total Amount</td>
                    <td class="text-center">PKR {{ number_format($totalPrice) }}</td>
                </tr>
            @endif

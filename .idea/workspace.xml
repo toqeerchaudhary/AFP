@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bac626c-e5b3-420f-953c-67887d8a8d59" name="Default" comment="" />
+    <list default="true" id="0bac626c-e5b3-420f-953c-67887d8a8d59" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Seller/QuotationController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Seller/QuotationController.php" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pdf/quotation.blade.php" afterPath="$PROJECT_DIR$/resources/views/pdf/quotation.blade.php" />
+      <change beforePath="$PROJECT_DIR$/resources/views/seller/quotation/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/seller/quotation/index.blade.php" />
+      <change beforePath="$PROJECT_DIR$/resources/views/seller/quotation/inquiry.blade.php" afterPath="$PROJECT_DIR$/resources/views/seller/quotation/inquiry.blade.php" />
+      <change beforePath="$PROJECT_DIR$/resources/views/seller/quotation/revision.blade.php" afterPath="$PROJECT_DIR$/resources/views/seller/quotation/revision.blade.php" />
+      <change beforePath="$PROJECT_DIR$/resources/views/seller/quotation/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/seller/quotation/show.blade.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +44,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>wa</find>
       <find>selection__choice__remove</find>
       <find>setting</find>
       <find>settings</find>
@@ -66,6 +73,7 @@
       <find>URL::to</find>
       <find>php</find>
       <find>Total Amount</find>
+      <find>revisio</find>
     </findStrings>
     <replaceStrings>
       <replace>/backend/</replace>
@@ -110,6 +118,9 @@
       <dir>C:\Users\SEO Manager\Desktop\AFP</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -138,7 +149,6 @@
         <option value="$PROJECT_DIR$/resources/views/admin/customer/revision.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/quotation/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/QuotationController.php" />
-        <option value="$PROJECT_DIR$/resources/views/seller/quotation/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Models/Seller.php" />
         <option value="$PROJECT_DIR$/database/migrations/2021_05_27_034250_create_inquiries_table.php" />
         <option value="$PROJECT_DIR$/resources/views/seller/inquiry/index.blade.php" />
@@ -152,17 +162,18 @@
         <option value="$PROJECT_DIR$/database/migrations/2021_05_21_094411_product_quotation_table.php" />
         <option value="$PROJECT_DIR$/app/Models/Quotation.php" />
         <option value="$PROJECT_DIR$/app/Models/Product.php" />
-        <option value="$PROJECT_DIR$/resources/views/seller/quotation/inquiry.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/seller/quotation/revision.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/config/dompdf.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TestController.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/seller/quotation/show.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Seller/QuotationController.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/seller.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/quotation/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/backend.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/seller/quotation/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/seller/quotation/inquiry.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/seller/quotation/show.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Seller/QuotationController.php" />
+        <option value="$PROJECT_DIR$/resources/views/seller/quotation/revision.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pdf/quotation.blade.php" />
       </list>
     </option>
@@ -276,8 +287,9 @@
     <option name="width" value="976" />
     <option name="height" value="1038" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -290,14 +302,18 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="SearchEverywhereHistoryKey" value="quota&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/pdf/quotation.blade.php&#10;back&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/backend.blade.php&#10;show&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/admin/quotation/show.blade.php&#10;backen&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/backend.blade.php&#10;SELL&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/seller.blade.php&#10;Test&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/TestController.php&#10;Quota&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/Seller/QuotationController.php&#10;web&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/welcome.blade.php&#10;we&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/routes/web.php&#10;seller&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/seller.blade.php&#10;composer.js&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/composer.json&#10;quotation&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/pdf/quotation.blade.php&#10;TEST&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/TestController.php&#10;inqui&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/seller/quotation/inquiry.blade.php&#10;revi&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/seller/quotation/revision.blade.php&#10;Produ&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Models/Product.php&#10;Inqui&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Models/Inquiry.php&#10;Quotat&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Models/Quotation.php&#10;product&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_21_094411_product_quotation_table.php&#10;quotat&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_21_094337_create_quotations_table.php&#10;create&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/seller/inquiry/create.blade.php&#10;Custom&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_22_033241_create_customers_table.php&#10;inqu&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/seller/quotation/inquiry.blade.php&#10;inquiry&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_27_034437_inquiry_product_table.php&#10;pro&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_21_094411_product_quotation_table.php&#10;pdf&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/pdf&#10;welcom&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/welcome.blade.php&#10;Quo&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/Seller/QuotationController.php&#10;Product&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Models/Product.php&#10;Inquiry&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Models/Inquiry.php&#10;inquir&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_27_034437_inquiry_product_table.php&#10;Inquir&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/Seller/InquiryController.php&#10;sel&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/seller.blade.php&#10;customers&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_22_033241_create_customers_table.php&#10;Inq&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_27_034250_create_inquiries_table.php&#10;Seller&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Models/Seller.php&#10;Quotation&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/Seller/QuotationController.php&#10;backe&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/backend.blade.php&#10;quotation_&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_21_094411_product_quotation_table.php&#10;index&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/seller/quotation/index.blade.php&#10;rev&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/seller/quotation/revision.blade.php&#10;Prod&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/ProductController.php&#10;bac&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/backend.blade.php&#10;customer&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_22_033241_create_customers_table.php&#10;Admin&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_04_30_064634_create_admins_table.php&#10;sell&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/seller.blade.php&#10;test&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/public/test.php&#10;wel&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/welcome.blade.php&#10;select2.min&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/public/backend/assets/libs/select2/dist/css/select2.min.css&#10;Categ&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/Admin/CategoryController.php" />
+    <property name="SearchEverywhereHistoryKey" value="quotation&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/pdf/quotation.blade.php&#10;inqui&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/seller/quotation/inquiry.blade.php&#10;revi&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/seller/quotation/revision.blade.php&#10;Quotat&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/Seller/QuotationController.php&#10;in&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/seller/quotation/inquiry.blade.php&#10;show&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/seller/quotation/show.blade.php&#10;sel&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/seller.blade.php&#10;index&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/seller/quotation/index.blade.php&#10;create&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/seller/inquiry/create.blade.php&#10;quota&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/pdf/quotation.blade.php&#10;back&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/backend.blade.php&#10;backen&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/backend.blade.php&#10;SELL&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/seller.blade.php&#10;Test&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/TestController.php&#10;Quota&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/Seller/QuotationController.php&#10;web&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/welcome.blade.php&#10;we&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/routes/web.php&#10;seller&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/seller.blade.php&#10;composer.js&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/composer.json&#10;TEST&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/TestController.php&#10;Produ&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Models/Product.php&#10;Inqui&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Models/Inquiry.php&#10;product&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_21_094411_product_quotation_table.php&#10;quotat&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_21_094337_create_quotations_table.php&#10;Custom&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_22_033241_create_customers_table.php&#10;inqu&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/seller/quotation/inquiry.blade.php&#10;inquiry&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_27_034437_inquiry_product_table.php&#10;pro&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_21_094411_product_quotation_table.php&#10;pdf&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/pdf&#10;welcom&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/welcome.blade.php&#10;Quo&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/Seller/QuotationController.php&#10;Product&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Models/Product.php&#10;Inquiry&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Models/Inquiry.php&#10;inquir&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_27_034437_inquiry_product_table.php&#10;Inquir&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/Seller/InquiryController.php&#10;customers&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_22_033241_create_customers_table.php&#10;Inq&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_27_034250_create_inquiries_table.php&#10;Seller&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Models/Seller.php&#10;Quotation&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/Seller/QuotationController.php&#10;backe&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/backend.blade.php&#10;quotation_&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_21_094411_product_quotation_table.php&#10;rev&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/seller/quotation/revision.blade.php&#10;Prod&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/app/Http/Controllers/ProductController.php&#10;bac&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/backend.blade.php&#10;customer&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_05_22_033241_create_customers_table.php&#10;Admin&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/database/migrations/2021_04_30_064634_create_admins_table.php&#10;sell&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/layouts/seller.blade.php&#10;test&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/public/test.php&#10;wel&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/resources/views/welcome.blade.php&#10;select2.min&#9;FILE&#9;file://C:/Users/SEO Manager/Desktop/AFP/public/backend/assets/libs/select2/dist/css/select2.min.css" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
@@ -347,12 +363,13 @@
       <workItem from="1622243597431" duration="13114000" />
       <workItem from="1622291816662" duration="197000" />
       <workItem from="1622638030997" duration="1082000" />
-      <workItem from="1623023588694" duration="26000" />
+      <workItem from="1623023588694" duration="2968000" />
+      <workItem from="1623073718018" duration="118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127505000" />
+    <option name="totallyTimeSpent" value="130565000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -372,7 +389,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5021482" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33408833" sideWeight="0.49785176" order="4" side_tool="false" content_ui="tabs" />
@@ -552,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/seller/quotation/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2021_05_27_034250_create_inquiries_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
@@ -591,13 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/seller/inquiry/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4700">
-          <caret line="100" column="27" lean-forward="false" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -650,20 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/seller/quotation/revision.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="182" column="52" lean-forward="false" selection-start-line="182" selection-start-column="41" selection-end-line="182" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/seller/quotation/inquiry.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10645">
-          <caret line="354" column="13" lean-forward="true" selection-start-line="249" selection-start-column="2" selection-end-line="354" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
@@ -706,24 +695,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Seller/QuotationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2256">
-          <caret line="150" column="26" lean-forward="true" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TestController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
           <caret line="18" column="75" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/seller.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -734,13 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/seller/quotation/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="191" column="22" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="191" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/backend.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
@@ -748,49 +716,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/seller/inquiry/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="100" column="27" lean-forward="false" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/seller.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/seller/quotation/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/seller/quotation/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="216" column="0" lean-forward="true" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Seller/QuotationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-538">
+          <caret line="190" column="14" lean-forward="true" selection-start-line="190" selection-start-column="14" selection-end-line="190" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/seller/quotation/inquiry.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/seller/quotation/revision.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="168" column="43" lean-forward="false" selection-start-line="168" selection-start-column="43" selection-end-line="168" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pdf/quotation.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="184" column="0" lean-forward="true" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+        <state relative-caret-position="402">
+          <caret line="125" column="22" lean-forward="false" selection-start-line="125" selection-start-column="22" selection-end-line="125" selection-end-column="22" />
           <folding>
-            <marker date="1622638524792" expanded="true" signature="9:89" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="372:472" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="1210:1281" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="1470:1496" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="1546:1567" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="1669:1694" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="1748:1773" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="2174:2195" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="2311:2366" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="2435:2456" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="2567:2620" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="2690:2712" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="2828:2851" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="2920:2941" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="3058:3088" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="3155:3174" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="3381:3406" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="3630:3655" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="4068:4100" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="4167:4185" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="4218:4234" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="4285:4321" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="4354:4381" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="4414:4465" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="4502:4546" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="4579:4606" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="4661:4873" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="4930:4953" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="5021:5044" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="5247:5275" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="5545:5582" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="5639:5665" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="5924:5964" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="6202:6230" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="6404:6449" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="6473:6538" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="6585:6650" ph="..." />
-            <marker date="1622638524792" expanded="true" signature="6847:6917" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="9:89" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="372:472" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="1210:1281" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="1470:1496" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="1546:1567" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="1669:1694" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="1748:1773" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="2174:2195" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="2311:2366" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="2435:2456" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="2567:2620" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="2690:2712" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="2828:2851" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="2920:2941" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="3058:3088" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="3155:3174" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="3381:3406" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="3630:3655" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="4033:4065" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="4132:4150" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="4183:4199" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="4250:4286" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="4319:4346" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="4379:4430" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="4467:4511" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="4548:4575" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="4634:4846" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="4903:4926" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="4994:5017" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="5220:5248" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="5518:5555" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="5612:5638" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="5897:5937" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="6175:6203" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="6377:6422" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="6446:6511" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="6558:6623" ph="..." />
+            <marker date="1623027679749" expanded="true" signature="6820:6890" ph="..." />
           </folding>
         </state>
       </provider>

@@ -7,9 +7,15 @@
 @section("styles")
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
     <style>
+        .form-group {
+            margin-bottom: 5px!important;
+        }
+
+
         .select2-selection__choice { color: black!important;}
         .tox-notifications-container {
-            display: none!important;
+            display: none !important;
+        }
         .select2-selection--multiple {
             height: 37px!important;
         }
@@ -23,10 +29,13 @@
         }
         .select2-selection__choice__remove {
             background-color: #e8ecf3!important;
-            border-color: #e8ecf3!important;;
+            border-color: #e8ecf3!important;
             color: #fff;
         }
 
+        table th, table td {
+            border: 1px solid black!important;
+        }
     </style>
 @stop
 
@@ -36,27 +45,27 @@
         <input type="hidden" name="reference" value="{{ $inquiry->reference }}">
         @csrf
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-3">
                 <div class="form-group">
                     <label for="company_name">Company Name: <span class="text-danger">*</span></label>
                     <input type="text" class="form-control" maxlength="50" value="{{ $inquiry->company_name }}" name="company_name" readonly>
                 </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-3">
                 <div class="form-group">
                     <label for="person_name">Person Name: <span class="text-danger">*</span></label>
                     <input type="text" class="form-control" maxlength="50" value="{{ $inquiry->person_name }}" name="person_name" readonly>
                 </div>
             </div>
 
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-3">
                 <div class="form-group">
                     <label for="address">Address:</label>
                     <input type="text" class="form-control" value="{{ old("address") }}" maxlength="200" name="address" >
                 </div>
             </div>
 
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-3">
                 <div class="form-group">
                     <label for="designation">Designation:</label>
                     <input type="text" class="form-control" maxlength="50" value="{{ old("designation") }}" name="designation" >
@@ -64,54 +73,50 @@
             </div>
 
 
-            <div class="col-12">
-                <hr>
-            </div>
 
-
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-3">
                 <div class="form-group">
                     <label for="designation">STRN #:</label>
                     <input type="text" class="form-control" value="32-77-8761-604-40" readonly>
                 </div>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-3">
                 <div class="form-group">
                     <label for="subject">Subject:</label>
                     <input type="text" class="form-control" value="{{ old("subject") }}" maxlength="50" name="subject" >
                 </div>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-3">
                 <div class="form-group">
                     <label for="designation">Date of Quote:</label>
                     <input type="text" class="form-control" value="{{ date("l, F, j, Y", time()) }}" readonly>
                 </div>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-3">
                 <div class="form-group">
                     <label for="project">Project:</label>
                     <input type="text" class="form-control" value="{{ old("project") }}" maxlength="200" name="project" >
                 </div>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-3">
                 <div class="form-group">
                     <label for="validity">Validity: <span class="text-danger">*</span></label>
                     <input type="date" class="form-control"  value=""  name="validity" required>
                 </div>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-3">
                 <div class="form-group">
                     <label for="location">Location:</label>
                     <input type="text" class="form-control" value="{{ old("location") }}" maxlength="200" name="location" >
                 </div>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-3">
                 <div class="form-group">
                     <label for="contact">Contact: <span class="text-danger">*</span></label>
                     <input type="number"
@@ -120,18 +125,77 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-3">
                 <div class="form-group">
                     <label for="client_reference">Your Reference:</label>
                     <input type="text" class="form-control" value="{{ old("client_reference") }}" maxlength="200" name="client_reference" >
                 </div>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-3">
                 <div class="form-group">
                     <label for="email">Email:</label>
                     <input type="email" class="form-control" value="{{ old("email") }}" name="email" >
                 </div>
+            </div>
+
+
+            <div class="col-12 col-md-6">
+                <label for="description">Quotation Description <span class="text-danger">*</span></label>
+                <input type="text" name="description" class="form-control" required>
+            </div>
+
+            <div class="col-12 col-md-3">
+                <label for="row_heading">Row Heading <span class="text-danger">*</span></label>
+                <input type="text" name="row_heading" class="form-control" required>
+            </div>
+
+
+
+            <div class="col-12">
+                <label for="">Select Product</label>
+                <select class="js-example-basic-multiple form-control"
+                        multiple="multiple" >
+                </select>
+            </div>
+
+            <div class="container mt-3 col-12">
+                <table class="table table-sm table-bordered ">
+                    <thead>
+                    <tr class="text-center">
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th style="width: 10px">Quantity</th>
+                        <th style="width: 200px">Sale Price</th>
+                        <th style="width: 200px">Total Price</th>
+                        <th style="width: 10px">Disc (%)</th>
+                        <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbody id="appendProduct">
+                    @foreach($inquiry->Products as $product)
+                        {{--<tr>--}}
+                            {{--<td>{{ $product->pivot->name }}</td>--}}
+                            {{--<td>{{ $product->pivot->short_description }}</td>--}}
+                            {{--<td>{{ $product->pivot->quantity }}</td>--}}
+                            {{--<td>{{ $product->pivot->sale_price }}</td>--}}
+                            {{--<td>{{ $product->pivot->total_price }}</td>--}}
+                            {{--<td><button type="button" class="btn btn-danger remove-row" data-id="{{ $product->id }}"><i class="fas fa-trash"></i></button></td>--}}
+                        {{--</tr>--}}
+
+                        <tr id="product-{{ $product->id }}">
+                            <input type="hidden" name="product[]" value='{{ $product->id }}'>
+                            <td><input type="text" name="name[]"  required class="form-control" value='{{ $product->pivot->name }}'></td>
+                            <td><input type="text" maxlength="200" name="short_description[]" class="form-control" required value='{{ $product->pivot->short_description }}'></td>
+                            <td><input type="number" name="quantity[]" data-id="{{ $product->id }}" id="quantity_{{ $product->id }}" min="1" value="{{ $product->pivot->quantity }}" class="form-control quantity" required></td>
+                            <td><input type="text" name="sale_price[]" data-id="{{ $product->id }}" id="sale_price_{{ $product->id }}" class="form-control sale_price" min="1" required value='{{ $product->pivot->sale_price }}'></td>
+                            <td><input type="text" class="form-control" min="1" id="total_price_{{ $product->id }}" disabled value='{{ $product->pivot->total_price }}'></td>
+                            <td><input type="text" class="form-control" name="discount[]" min="1"  value=''></td>
+                            <td><button type="button" class="btn btn-danger remove-row" data-id="{{ $product->id }}"><i class="fas fa-trash"></i></button></td>
+                        </tr>
+                    @endforeach
+                    </tbody>
+                </table>
             </div>
 
 
@@ -174,69 +238,6 @@
                         General Terms
                     </label>
                 </div>
-            </div>
-
-            <div class="col-12">
-                <label for="description">Quotation Description <span class="text-danger">*</span></label>
-                <input type="text" name="description" class="form-control" required>
-            </div>
-
-            <div class="col-12">
-                <label for="row_heading">Row Heading <span class="text-danger">*</span></label>
-                <input type="text" name="row_heading" class="form-control" required>
-            </div>
-
-
-
-
-            <div class="col-12">
-                <hr>
-            </div>
-
-            <div class="col-12">
-                <label for="">Select Product</label>
-                <select class="js-example-basic-multiple form-control"
-                        multiple="multiple" >
-                </select>
-            </div>
-
-            <div class="container mt-3 col-12">
-                <table class="table table-sm table-bordered ">
-                    <thead>
-                    <tr class="text-center">
-                        <th>Name</th>
-                        <th>Description</th>
-                        <th style="width: 10px">Quantity</th>
-                        <th style="width: 200px">Sale Price</th>
-                        <th style="width: 200px">Total Price</th>
-                        <th style="width: 10px">Discount</th>
-                        <th>Action</th>
-                    </tr>
-                    </thead>
-                    <tbody id="appendProduct">
-                    @foreach($inquiry->Products as $product)
-                        {{--<tr>--}}
-                            {{--<td>{{ $product->pivot->name }}</td>--}}
-                            {{--<td>{{ $product->pivot->short_description }}</td>--}}
-                            {{--<td>{{ $product->pivot->quantity }}</td>--}}
-                            {{--<td>{{ $product->pivot->sale_price }}</td>--}}
-                            {{--<td>{{ $product->pivot->total_price }}</td>--}}
-                            {{--<td><button type="button" class="btn btn-danger remove-row" data-id="{{ $product->id }}"><i class="fas fa-trash"></i></button></td>--}}
-                        {{--</tr>--}}
-
-                        <tr id="product-{{ $product->id }}">
-                            <input type="hidden" name="product[]" value='{{ $product->id }}'>
-                            <td><input type="text" name="name[]"  required class="form-control" value='{{ $product->pivot->name }}'></td>
-                            <td><input type="text" maxlength="200" name="short_description[]" class="form-control" required value='{{ $product->pivot->short_description }}'></td>
-                            <td><input type="number" name="quantity[]" data-id="{{ $product->id }}" id="quantity_{{ $product->id }}" min="1" value="{{ $product->pivot->quantity }}" class="form-control quantity" required></td>
-                            <td><input type="text" name="sale_price[]" data-id="{{ $product->id }}" id="sale_price_{{ $product->id }}" class="form-control sale_price" min="1" required value='{{ $product->pivot->sale_price }}'></td>
-                            <td><input type="text" class="form-control" min="1" id="total_price_{{ $product->id }}" disabled value='{{ $product->pivot->total_price }}'></td>
-                            <td><input type="text" class="form-control" name="discount[]" min="1"  value=''></td>
-                            <td><button type="button" class="btn btn-danger remove-row" data-id="{{ $product->id }}"><i class="fas fa-trash"></i></button></td>
-                        </tr>
-                    @endforeach
-                    </tbody>
-                </table>
             </div>
         </div>
 

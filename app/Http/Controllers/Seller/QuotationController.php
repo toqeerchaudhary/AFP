@@ -187,7 +187,8 @@ class QuotationController extends Controller
         unset($data['sale_price']);
         unset($data['discount']);
 
-        $newRevisionNo = $quotation->revision_no + 1;
+        $q = Quotation::where("code", $quotation->code)->orderBy("id", "desc")->first();
+        $newRevisionNo = $q->revision_no + 1;
         $ref = explode("R-", $quotation->reference)[0];
 
         if ($newRevisionNo < 10) {
